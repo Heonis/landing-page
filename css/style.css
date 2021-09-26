@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.upper{
+    background-color: #5f1919;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #4e1010;
+    align-items: center;
+    height: 48px;
+    
+}
+
+header ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.content1{
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.content1 img{
+    width: 600px;
+    height: 300px;
+    min-width: 300px ;
+}
+h1{
+    font: 24px;
+    color: #f9faf8;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    justify-content: space-evenly;
+
+}
+.title p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    font-weight: bolder;
+    color: white;
+    background-color: #4e1010;
+    font-size: 18px;
+    width: 88px;
+    height: 46px;
+}
+h2{
+    font: 48px extra-bold;
+    color:#f9faf8;
+}
+
+.content2{
+    height: 400px;
+    padding: 32px;
+}
+h3{
+    font: 36px extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.descripciones{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.descripciones figure img{
+    width: 250px;
+    height: 250px;
+    border: #4e1010 solid 3px;
+}
+
+.descripciones figcaption{
+    width: 250px;
+    margin-top: 8px;
+}
+
+.content3{
+    background-color: #e5e7eb;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.content3 p{
+    width: 500px;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey ;
+    font-style: italic;
+}
+.content3 h4{
+    width: 500px;
+    text-align: end;
+    font-size: 24px;
+}
+
+.content4{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content4 .alert{
+    background-color: #5f1919;
+    border-radius: 10%;
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content4 div div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+.content4 div div h4{
+    font-size: 24px;
+}
+
+footer{
+    background-color: #4e1010;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+}
